@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
 			this.label1 = new System.Windows.Forms.Label();
-			this.btnlogout = new System.Windows.Forms.Button();
-			this.btnkeluar = new System.Windows.Forms.Button();
 			this.button1 = new System.Windows.Forms.Button();
+			this.btnkeluar = new System.Windows.Forms.Button();
+			this.btnlogout = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
@@ -44,21 +44,21 @@
 			this.label1.TabIndex = 0;
 			this.label1.Text = "MENU ARSIP SURAT";
 			// 
-			// btnlogout
+			// button1
 			// 
-			this.btnlogout.Location = new System.Drawing.Point(99, 218);
-			this.btnlogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-			this.btnlogout.Name = "btnlogout";
-			this.btnlogout.Size = new System.Drawing.Size(100, 28);
-			this.btnlogout.TabIndex = 1;
-			this.btnlogout.Text = "LOGOUT";
-			this.btnlogout.UseVisualStyleBackColor = true;
-			this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
+			this.button1.Image = global::PENGARSIPAN.Properties.Resources._1455554327_line_12_icon_icons_com_53320;
+			this.button1.Location = new System.Drawing.Point(99, 152);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(224, 33);
+			this.button1.TabIndex = 4;
+			this.button1.Text = "MASUK";
+			this.button1.UseVisualStyleBackColor = true;
 			// 
 			// btnkeluar
 			// 
+			this.btnkeluar.Image = global::PENGARSIPAN.Properties.Resources._1455554327_line_12_icon_icons_com_53320;
 			this.btnkeluar.Location = new System.Drawing.Point(99, 102);
-			this.btnkeluar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.btnkeluar.Margin = new System.Windows.Forms.Padding(4);
 			this.btnkeluar.Name = "btnkeluar";
 			this.btnkeluar.Size = new System.Drawing.Size(224, 28);
 			this.btnkeluar.TabIndex = 3;
@@ -66,14 +66,17 @@
 			this.btnkeluar.UseVisualStyleBackColor = true;
 			this.btnkeluar.Click += new System.EventHandler(this.btnkeluar_Click);
 			// 
-			// button1
+			// btnlogout
 			// 
-			this.button1.Location = new System.Drawing.Point(99, 152);
-			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(224, 33);
-			this.button1.TabIndex = 4;
-			this.button1.Text = "MASUK";
-			this.button1.UseVisualStyleBackColor = true;
+			this.btnlogout.Image = global::PENGARSIPAN.Properties.Resources._1455554327_line_12_icon_icons_com_53320;
+			this.btnlogout.Location = new System.Drawing.Point(99, 218);
+			this.btnlogout.Margin = new System.Windows.Forms.Padding(4);
+			this.btnlogout.Name = "btnlogout";
+			this.btnlogout.Size = new System.Drawing.Size(100, 28);
+			this.btnlogout.TabIndex = 1;
+			this.btnlogout.Text = "LOGOUT";
+			this.btnlogout.UseVisualStyleBackColor = true;
+			this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
 			// 
 			// menu_utama
 			// 
