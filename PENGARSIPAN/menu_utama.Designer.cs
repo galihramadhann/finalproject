@@ -87,7 +87,7 @@
 			this.Controls.Add(this.label1);
 			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
 			this.Name = "menu_utama";
-			this.Text = "menu_utama";
+			this.Text = "Menu Utama";
 			this.Load += new System.EventHandler(this.menu_utama_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();
