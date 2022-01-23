@@ -28,65 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.btnlogout = new System.Windows.Forms.Button();
-            this.btnmasuk = new System.Windows.Forms.Button();
-            this.btnkeluar = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(187, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "MENU ARSIP SURAT";
-            // 
-            // btnlogout
-            // 
-            this.btnlogout.Location = new System.Drawing.Point(74, 177);
-            this.btnlogout.Name = "btnlogout";
-            this.btnlogout.Size = new System.Drawing.Size(75, 23);
-            this.btnlogout.TabIndex = 1;
-            this.btnlogout.Text = "LOGOUT";
-            this.btnlogout.UseVisualStyleBackColor = true;
-            this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
-            // 
-            // btnmasuk
-            // 
-            this.btnmasuk.Location = new System.Drawing.Point(74, 123);
-            this.btnmasuk.Name = "btnmasuk";
-            this.btnmasuk.Size = new System.Drawing.Size(168, 23);
-            this.btnmasuk.TabIndex = 2;
-            this.btnmasuk.Text = "SURAT MASUK";
-            this.btnmasuk.UseVisualStyleBackColor = true;
-            this.btnmasuk.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // btnkeluar
-            // 
-            this.btnkeluar.Location = new System.Drawing.Point(74, 83);
-            this.btnkeluar.Name = "btnkeluar";
-            this.btnkeluar.Size = new System.Drawing.Size(168, 23);
-            this.btnkeluar.TabIndex = 3;
-            this.btnkeluar.Text = "SURAT KELUAR";
-            this.btnkeluar.UseVisualStyleBackColor = true;
-            this.btnkeluar.Click += new System.EventHandler(this.btnkeluar_Click);
-            // 
-            // menu_utama
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(435, 261);
-            this.Controls.Add(this.btnkeluar);
-            this.Controls.Add(this.btnmasuk);
-            this.Controls.Add(this.btnlogout);
-            this.Controls.Add(this.label1);
-            this.Name = "menu_utama";
-            this.Text = "menu_utama";
-            this.Load += new System.EventHandler(this.menu_utama_Load);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+			this.label1 = new System.Windows.Forms.Label();
+			this.btnlogout = new System.Windows.Forms.Button();
+			this.btnkeluar = new System.Windows.Forms.Button();
+			this.button1 = new System.Windows.Forms.Button();
+			this.SuspendLayout();
+			// 
+			// label1
+			// 
+			this.label1.AutoSize = true;
+			this.label1.Location = new System.Drawing.Point(249, 55);
+			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label1.Name = "label1";
+			this.label1.Size = new System.Drawing.Size(143, 17);
+			this.label1.TabIndex = 0;
+			this.label1.Text = "MENU ARSIP SURAT";
+			// 
+			// btnlogout
+			// 
+			this.btnlogout.Location = new System.Drawing.Point(99, 218);
+			this.btnlogout.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.btnlogout.Name = "btnlogout";
+			this.btnlogout.Size = new System.Drawing.Size(100, 28);
+			this.btnlogout.TabIndex = 1;
+			this.btnlogout.Text = "LOGOUT";
+			this.btnlogout.UseVisualStyleBackColor = true;
+			this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
+			// 
+			// btnkeluar
+			// 
+			this.btnkeluar.Location = new System.Drawing.Point(99, 102);
+			this.btnkeluar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.btnkeluar.Name = "btnkeluar";
+			this.btnkeluar.Size = new System.Drawing.Size(224, 28);
+			this.btnkeluar.TabIndex = 3;
+			this.btnkeluar.Text = "SURAT KELUAR";
+			this.btnkeluar.UseVisualStyleBackColor = true;
+			this.btnkeluar.Click += new System.EventHandler(this.btnkeluar_Click);
+			// 
+			// button1
+			// 
+			this.button1.Location = new System.Drawing.Point(99, 155);
+			this.button1.Name = "button1";
+			this.button1.Size = new System.Drawing.Size(224, 34);
+			this.button1.TabIndex = 4;
+			this.button1.Text = "MASUK";
+			this.button1.UseVisualStyleBackColor = true;
+			this.button1.Click += new System.EventHandler(this.button1_Click);
+			// 
+			// menu_utama
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(580, 321);
+			this.Controls.Add(this.button1);
+			this.Controls.Add(this.btnkeluar);
+			this.Controls.Add(this.btnlogout);
+			this.Controls.Add(this.label1);
+			this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+			this.Name = "menu_utama";
+			this.Text = "menu_utama";
+			this.Load += new System.EventHandler(this.menu_utama_Load);
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
         }
 
@@ -94,7 +98,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnlogout;
-        private System.Windows.Forms.Button btnmasuk;
         private System.Windows.Forms.Button btnkeluar;
-    }
+		private System.Windows.Forms.Button button1;
+	}
 }
