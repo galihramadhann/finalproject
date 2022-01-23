@@ -1,0 +1,21 @@
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\bin\Debug\PENGARSIPAN.exe.config
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\bin\Debug\PENGARSIPAN.exe
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\bin\Debug\PENGARSIPAN.pdb
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.Properties.Resources.resources
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.csproj.GenerateResource.Cache
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.exe
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.pdb
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.csprojResolveAssemblyReference.cache
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.login.resources
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.menu_utama.resources
+c:\users\muhamad abdul ghofur\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.pengarsipan_masuk.resources
+C:\Users\MUHAMAD ABDUL GHOFUR\documents\visual studio 2013\Projects\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.pengarsipan_keluar.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.csproj.AssemblyReference.cache
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.login.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.menu_utama.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.pengarsipan_keluar.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.pengarsipan_masuk.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.Properties.Resources.resources
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.csproj.GenerateResource.cache
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.csproj.CoreCompileInputs.cache
+D:\PBA\Rijal-Laporan\PENGARSIPAN\PENGARSIPAN\obj\Debug\PENGARSIPAN.exe
