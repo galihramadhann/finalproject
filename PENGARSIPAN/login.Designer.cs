@@ -29,13 +29,13 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.btnlogin = new System.Windows.Forms.Button();
             this.txtuser = new System.Windows.Forms.TextBox();
             this.btnexit = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtpw = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -46,17 +46,6 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(0, 17);
             this.label1.TabIndex = 0;
-            // 
-            // btnlogin
-            // 
-            this.btnlogin.Location = new System.Drawing.Point(141, 254);
-            this.btnlogin.Margin = new System.Windows.Forms.Padding(4);
-            this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(100, 28);
-            this.btnlogin.TabIndex = 1;
-            this.btnlogin.Text = "Login";
-            this.btnlogin.UseVisualStyleBackColor = true;
-            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // txtuser
             // 
@@ -115,19 +104,28 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "MASUK";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(116, 259);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Masuk";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
             // login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumOrchid;
             this.ClientSize = new System.Drawing.Size(613, 401);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtpw);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.btnexit);
             this.Controls.Add(this.txtuser);
-            this.Controls.Add(this.btnlogin);
             this.Controls.Add(this.label1);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "login";
@@ -141,13 +139,13 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button btnlogin;
         private System.Windows.Forms.TextBox txtuser;
         private System.Windows.Forms.Button btnexit;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtpw;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 
